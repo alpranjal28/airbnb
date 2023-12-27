@@ -115,8 +115,9 @@
             </div>
             <button class="btn btn-outline-danger">Submit</button>
         </form>
-
-        <% } %> <%if(listing.reviews > 0){%>
+        <% } %>
+        <br />
+        <%if(listing.reviews > 0){%>
         <div class="row">
             <p><b>All Reviews</b></p>
             <% for(review of listing.reviews) { %>
